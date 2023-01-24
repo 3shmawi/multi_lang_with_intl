@@ -3,5 +3,14 @@
      "@language": {
         "description": "The current Language"
      },
-     "home": "الصفحة الرئيسية"
+     "home": "الصفحة الرئيسية",
+      "hello": "{username} مرحبا",
+          "@hello": {
+             "description": "A welcome message",
+             "placeholders": {
+                 "username": {
+                     "type": "String"
+                 }
+             }
+          }
 }
